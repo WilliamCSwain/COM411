@@ -5,3 +5,5 @@ if activity == "calculate":
     print("Calculations are being performed...")
 else:
     print("Performing the activity...")
+
+print("Activity has completed.")
