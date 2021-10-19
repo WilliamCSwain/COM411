@@ -1,5 +1,5 @@
 print("Please enter the activity that you wish to be performed")
-activity= input()
+activity = input()
 
 if activity == "calculate":
     print("Calculations are being performed...")
