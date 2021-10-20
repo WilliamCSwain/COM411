@@ -6,3 +6,6 @@ second_number = int(input())
 
 print("Please enter the third number.")
 third_number = int(input())
+
+even_numbers = 0
+odd_numbers = 0
