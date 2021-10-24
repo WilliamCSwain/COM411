@@ -10,4 +10,4 @@ if cover_type == "soft":
     else:
         print("Soft covers with coils or stitches are great from short books")
 else:
-    printf("Books with hard covers can be more expensive!")
+    print("Books with hard covers can be more expensive!")
