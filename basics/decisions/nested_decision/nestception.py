@@ -12,6 +12,11 @@ if place == "in the bedroom":
         print("Found mess, no battery.")
 
 # Bathroom Checks
-elif plae == "in the bathroom":
+elif place == "in the bathroom":
     print("Where in the bathroom should I check?")
     bathroom_place = input()
+
+    if bathroom_place == "in the bathtub":
+        print("Found rubber duck, no battery.")
+    else:
+        print("Found wet surface, no battery.")
