@@ -5,11 +5,11 @@ def read(file_path):
         csv_reader = csv.reader(file)
 
         headings = next(csv_reader)
-        print(f"Headings:\n{heaings}")
+        print(f"Headings:\n{headings}")
 
         print("Values:")
         for values in csv_reader:
-            print(valus)
+            print(values)
 
 def run()
     read("bots.csv")
