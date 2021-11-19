@@ -1,10 +1,6 @@
-print("How many cables should be removed?")
+print("How many cables do I remove?")
 cables_to_remove = int(input())
 
-cables_removed = 0 # Declares the variable
+cables_removed = 0
 
-print() # Remove Cables
-
-while cables_removed < cables_to_remove:
-    print("Removed a cable.")
-    cables_removed = cables_removed + 1
+print()
