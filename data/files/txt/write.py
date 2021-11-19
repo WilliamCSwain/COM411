@@ -1,4 +1,4 @@
-def searxh(file_path):
+def search(file_path):
     print("Searching")
 
     section == ""
