@@ -3,10 +3,10 @@ def search(file_path):
     with open(file_path) as file:
         for location in file:
             print(f"Looked in {location.strip()}")
-    prinr("Done!")
+    print("Done!")
 
 def run():
-    search("librart.txt")
+    search("library.txt")
 
 if __name__ == "__main__":
     run()
