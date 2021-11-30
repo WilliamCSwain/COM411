@@ -22,7 +22,7 @@ def remove_observations(observations):
       is_running = False
 
 def run():
-  observationd = obaerved()
+  observations = observed()
   remove_observations(observations)
 
   observations_set = set()
