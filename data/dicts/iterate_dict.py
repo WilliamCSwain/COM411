@@ -2,7 +2,7 @@ def pattern():
     sequences = {"Short": 3, "Medium": 2, "Long": 1}
     return sequences
 
-def display_keyd(data):
+def display_keys(data):
     print("Keys:")
     for key in data:
         print(key)
